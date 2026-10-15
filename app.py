@@ -227,3 +227,4 @@ if st.session_state.final is not None:
         st.info(f"final_action = {action}")
     st.caption(f"thread_id = `{st.session_state.thread_id}`  ·  replay: "
                f"`uv run python -m audit.replay --thread {st.session_state.thread_id}`")
+
